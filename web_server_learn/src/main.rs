@@ -6,9 +6,10 @@ fn main() {
 struct Server{
     addr:String,
 }
+
 impl Server{
-    fn new( addr: String)->self{
-        Self{addr}
+    fn new( addr: String)-> Self{
+        Self{ addr }
     }
 
     fn run(self) {
